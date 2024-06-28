@@ -1,0 +1,66 @@
+.setting-business-continer{
+    height: 100%;
+    width: 98%;
+    /* border: 1px solid #000; */
+    padding:0px 1rem;
+}
+
+.setting-business-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.setting-business-push-Email{
+    height: auto;
+    width: 97%;
+    border: 1px groove #AAA;
+    border-radius: 15px;
+    padding: 0px 1rem;
+}
+
+.setting-business-push-email-inner-cntr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    font-size: 0.9rem;
+    color: #222222;
+    margin: 1rem 0px;
+    cursor: pointer;
+}
+
+.setting-business-pop-continer{
+     height: 17rem;
+     width: 30rem;
+     background-color: #fff;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: #181818;
+}
+
+.setting-business-pop-header{
+    font-size: 1.5rem;
+    color: #181818;
+}
+
+.setting-business-pop-details{
+    font-size: 1rem;
+    color: #aaa;
+    text-align: center;
+}
+
+.setting-business-pop-button{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+    color: #1a75ff;
+    font-weight: 600;
+    margin: 1rem 0px;
+    cursor: pointer;
+}

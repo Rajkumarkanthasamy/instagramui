@@ -1,0 +1,90 @@
+.notification-continer{
+    min-height: 100vh;
+    width: 99.2vw;
+    display: flex;
+}
+
+.notification-nav-bar-continer{
+   
+}
+
+.notification-main{
+    min-height: 90vh;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.notification-header{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.notification-list-continer{
+    /* border: 1px solid #000; */
+    width: 100%;
+    min-height: 40rem;
+    padding: 1rem;
+}
+
+.notification-recent-header{
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+
+
+.notification-id-continer{
+    margin:2px 1rem;
+    height: 4rem;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.notification-profile-div{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.notification-profile-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.notification-id-about-continer-id{
+    font-size: 1rem;
+    color: #000;
+    margin: 1px;
+    margin-left: 1rem;
+    display: flex;
+}
+.notification-id-about-continer-about{
+    font-size: 0.8rem;
+    color: #aaa;
+    margin: 1px;
+    margin-left: 1rem;
+
+}
+
+
+.notification-message-continer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.notification-follow-button{
+    background-color: #0099ff;
+    color: aliceblue;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+    padding: 0.3rem;
+}
+

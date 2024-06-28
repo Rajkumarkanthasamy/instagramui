@@ -1,0 +1,55 @@
+.myactivity-likes-main-continer{
+    padding: 1rem;
+}
+
+.myactivity-likes-filter-continer{
+    height: 3rem;
+    min-width: 90%;
+    /* border: 1px solid #000; */
+    margin: 1rem 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.myactivity-likes-filter-text{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-right:1rem ;
+    color:#181818;
+}
+
+.myactivity-likes-filter-button{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid #eee;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#181818;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+
+.myactivity-likes-media-continer{
+    height: 46rem;
+    width: 100%;
+    border: 1px solid #000;
+    overflow-y: auto;
+}
+.myactivity-likes-media-inner-continer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.3rem;
+}
+
+.myactivity-likes-content-div{
+    height: 15rem;
+}
+
+.myactivity-likes-content-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

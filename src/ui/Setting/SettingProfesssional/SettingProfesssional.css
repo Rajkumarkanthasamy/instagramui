@@ -1,0 +1,60 @@
+.setting-professional-continer{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    color: #181818;
+}
+
+.setting-professional-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.setting-professional-inner-continer{
+    width: 96%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.setting-professional-option-continer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    width: 90%;
+    min-height: 3rem;
+    padding: 1rem;
+}
+
+.setting-professional-subheader{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 10rem;
+    height: auto;
+}
+
+.setting-professional-normal-text{
+    font-size: 0.9rem;
+}
+
+.setting-professional-input{
+    border: none;
+    outline: none;
+    width: 30rem;
+    height: 3rem;
+    background-color: #eee;
+    font-size: 1rem;
+}
+.setting-professional-button{
+    margin: 1rem 0px;
+    border: none;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a75ff;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 10px;
+}

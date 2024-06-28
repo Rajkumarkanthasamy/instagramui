@@ -1,0 +1,8 @@
+.myactivity-post-continer{
+    height: 50rem;
+    width: 97%;
+    padding: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+

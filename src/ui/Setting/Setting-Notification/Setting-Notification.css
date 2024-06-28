@@ -1,0 +1,49 @@
+.setting-notification-continer{
+    height: 100%;
+    width: 98%;
+    /* border: 1px solid #000; */
+    padding:0px 1rem;
+}
+
+.setting-notification-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.setting-notification-push-Email{
+    height: auto;
+    width: 97%;
+    border: 1px groove #AAA;
+    border-radius: 15px;
+    padding: 0px 1rem;
+}
+
+.setting-notification-push-email-inner-cntr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    font-size: 0.9rem;
+    color: #222222;
+    margin: 1rem 0px;
+    cursor: pointer;
+}
+
+.setting-notification-subheader{
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.setting-notification-normaltext-size{
+    font-size: 0.9rem;
+    color: #181818;
+}
+
+.setting-notification-pause-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+}
+

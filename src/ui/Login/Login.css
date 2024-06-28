@@ -1,0 +1,205 @@
+.Login-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Login-element-continer{
+        height: 90vh;
+        width: 60vw;
+        /* border: 2px solid #000; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+}
+
+
+.login-input-element-continer{
+    border: 1px solid #AAA;
+    width: 320px;
+    min-height: 26rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-input-element-continer-header{
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.login-input{
+    min-width: 70%;
+    height: 2.2rem;
+    outline: none;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    border: 1px solid #AAA;
+    background-color: #f1f1f1;
+} 
+
+.login-button{
+    min-width: 75%;
+    height: 2.3rem;
+    outline: none;
+    background-color: #53bdeb;
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-or{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    height: 1rem;
+}
+.login-or p{
+    font-size: 0.9rem;
+    color: #AAA;
+    padding: 0px 1rem
+}
+.login-or hr{
+    width: 5rem;
+}
+
+.login-facebook-continer{
+    margin: 0px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+}
+.login-facebook-continer p{
+    font-size: 0.9rem;
+    color: #0064d1;
+    font-weight: 550;
+cursor: pointer;
+padding: 0px 0.5rem;
+}
+
+.login-forgotpassword{
+    height: 1rem;
+padding-bottom: 1rem;
+
+}
+.login-forgotpassword a{
+    
+text-decoration: none;
+font-size: 0.8rem;
+color: #192e8d;
+text-align: center;
+cursor: pointer;
+}
+
+
+
+.login-signup-continer{
+    margin-top: 1rem;
+    border: 1px solid #AAA;
+    width: 320px;
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.login-signup-continer span,a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #0064d1;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-download-continer{
+    margin-top: 1rem;
+    width: 320px;
+    min-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-button-download{
+    height: 3rem;
+    width: 9.5rem;
+    background-color: #000;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.login-download-link-text-first{
+font-size: 0.7rem;
+padding: 0px 0.5rem;
+margin: 0;
+}
+
+.login-download-link-text-sec{
+    font-size: 0.9rem;
+    padding: 0px 0.5rem;
+    margin: 0;
+}
+
+
+.login-details-continer{
+    /* border: 1px solid #AAA; */
+    height:10rem;
+    width: 59vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.login-details-continer-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid #AAA; */
+    min-height: 4rem;
+    width: 100%;
+}
+
+.login-details-continer-link-a{
+  font-size: 0.9rem;
+  padding: 0px 0.5rem;
+  font-weight: 400;
+  color: #AAA;
+  text-decoration: none;
+}
+
+.login-details-continer-link-a:hover{
+    text-decoration: underline;
+}
+
+.login-copyright{
+    font-size: 0.9rem;
+    padding: 0px 0.5rem;
+    font-weight: 400;
+    color: #AAA;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .login-details-continer-link{
+        display: none;
+    }
+}

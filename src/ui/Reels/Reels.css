@@ -1,0 +1,121 @@
+.reels-continer{
+    min-height: 100vh;
+    width: 99.2vw;
+    display: flex;
+
+}
+
+.reels-nav-bar-continer{
+   
+}
+
+.reels-main{
+    height: 96vh;
+    width: 100%;
+    padding: 1rem;
+    /* border: 1px solid #000; */
+    overflow: auto;
+    scroll-snap-type:y mandatory;
+
+}
+
+.reels-main::-webkit-scrollbar {
+    width: 1px;               /* width of the entire scrollbar */
+  }
+  
+.reels-main::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+  
+.reels-main::-webkit-scrollbar-thumb {
+    background-color: rgb(124, 124, 124);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(255, 255, 255);  /* creates padding around scroll thumb */
+  }
+
+
+.reels-main-reels-continer{
+    margin: 1rem;
+    height: 90vh;
+    width: 95%;
+    /* border: 1px solid pink; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    position: relative;
+}
+
+.reels-continer-div{
+    height: 40rem;
+    width: 30rem;
+    /* border: 10px solid #aaa; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.reels-continer-div-video{
+    height: 100%;
+    width: 26rem;
+    border-radius: 5px;
+    /* border: 1px solid rebeccapurple; */
+}
+.reels-continer-div-video img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.reels-continer-div-action-button{
+    height: 100%;
+    width: 4rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.reels-action-icon-count-continer{
+    width: 3rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    margin: 0.5rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.reels-action-icon{
+
+}
+
+.reels-action-count{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.reels-action-icon-count-continer-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.reels-border-audio{
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}

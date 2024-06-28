@@ -1,0 +1,145 @@
+.viewcommands-continer{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    /* background-color: aquamarine; */
+    /* top: 10rem; */
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.commands-close-button{
+    position: absolute;
+    left: 82rem;
+    top: -6rem;
+    }
+
+.viewcommands-content{
+    height: 70vh;
+    width: 35vw;
+    background-color: aliceblue;
+}
+
+.viewcommands-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.viewcommands{
+    height: 70vh;
+    width: 35vw;
+    /* background-color: rgb(27, 104, 172); */
+}
+
+.viewcommands-header{
+    height: 5rem;
+    border: 1px solid #AAA;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.commands-user-status-bar-div{
+    margin-right:2rem;
+    margin-left: 1rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.commands-user-status-bar-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.viewcommands-list{
+    overflow-y: scroll;
+    width: 100%;
+    height: 28rem;
+    background-color: #FFF;
+    margin-top: 0.2rem;
+}
+
+.command-tag-list{
+    width: 100%;
+    min-height: 5rem;
+    /* background-color: #5f5c5c; */
+
+}
+.command-tag-list a{
+ text-decoration: none;
+ font-size: 1rem;
+ padding: 1rem;
+ text-align: center;
+}
+
+.command-like-msg-share{
+    width: 100%;
+    min-height: 9rem;
+    background-color: #fff;
+
+}
+
+.commands-like-continer{
+    margin: 2px;
+    margin-left:1rem ;
+    font-size: 1.2rem;
+    color: #AAA;
+}
+
+.commands-input-post-continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.commands-user-post-like-command-message-save-continer{
+    height: 3rem;
+    width: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-post-like-msg-command-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-post-like-msg-command-continer div{
+    margin-right: 1rem;
+}
+.command-input{
+    margin-left: 1rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #AAA;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.commands-post-button{
+    height: 2rem;
+    width: 5rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    color: #0c79df;
+    cursor: pointer;
+}
+
+
+

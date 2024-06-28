@@ -1,0 +1,92 @@
+.setting-continer{
+    min-height: 100vh;
+    width: 99.2vw;
+    display: flex;
+}
+
+.setting-bar-continer{
+   
+}
+
+.setting-main-continer{
+    height: 96vh;
+    width: 100%;
+    padding: 1rem;
+    /* border: 1px solid #000; */
+    background-color: #fff;
+    display: flex;
+}
+
+.setting-main-continer-left{
+    width: 20rem;
+    min-height: 80vh;
+    background-color: #fff;
+    overflow-x: auto;
+    padding:1rem;
+}
+
+
+
+
+
+.setting-main-continer-left-inner{
+    width: 99%;
+    height: 100vh;
+    /* border: 1px solid #000; */
+}
+
+
+.setting-left-elements-header{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.setting-left-elements-continer{
+    width: 100%;
+    min-height: 50rem;
+}
+
+.setting-left-elements-continer-header{
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 1rem 0px;
+    color: #757575;
+}
+
+
+
+.setting-left-elements-list-button{
+    height: 3rem;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    margin: 0.1rem 0px;
+    transition-duration: 0.5s;
+    color: #181818;
+}
+
+.setting-left-elements-list-button:hover{
+    background-color: #eee;
+}
+
+
+
+.setting-main-continer-right{
+    width: 100%;
+    min-height: 90vh;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+
+.setting-main-continer-right-inner{
+    width: 99%;
+    height: 100vh;
+
+}

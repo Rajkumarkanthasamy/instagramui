@@ -1,0 +1,65 @@
+.activity-comments-continer{
+
+}
+
+.activity-comments-user-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.activity-comments-user-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 15%;
+}
+
+.activity-comments-user-img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.activity-comments-user-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.activity-comments-user-id-date{
+    margin: 0px 1rem;
+}
+.activity-comments-user-id{
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+}
+
+.activity-comments-user-date-text{
+    font-size: 0.9rem;
+    color: #aaa;
+    padding: 0px;
+    margin: 0px;
+}
+
+.activity-comments-media-continer{
+    height: 7rem;
+    width: 5rem;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.activity-comments-media-continer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.activity-comments-mycomments{
+    padding: 0px 5rem;
+}

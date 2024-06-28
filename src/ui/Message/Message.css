@@ -1,0 +1,202 @@
+.message-continer{
+    min-height: 100vh;
+    width: 99.2vw;
+    display: flex;
+}
+
+.message-nav-bar-continer{
+   
+}
+
+.message-main{
+    min-height: 90vh;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.message-search-text{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+.message-search-input-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #eee;
+    margin: 0px 1rem;
+    height: 2rem;
+
+}
+
+.message-search-input{
+    border: none;
+    outline: none;
+    background-color: #eee;
+    width: 90%;
+    padding-left: 1rem;
+    margin-left:3px ;
+}
+
+.message-recent-text{
+    font-size: 1rem;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.message-search-react-ids-continer{
+    margin:2px 1rem;
+    height: 4rem;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.message-profile-div{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.message-profile-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.message-search-user-id-about-continer{
+    
+}
+
+.message-search-user-id-about-continer-id{
+    font-size: 1rem;
+    color: #000;
+    margin: 1px;
+    margin-left: 1rem;
+}
+.message-search-user-id-about-continer-about{
+    font-size: 0.8rem;
+    color: #aaa;
+    margin: 1px;
+    margin-left: 1rem;
+
+}
+
+.message-chart-continer{
+    height: 100%;
+    width: 100%;
+    border: 1px groove #dfdfdf;
+    position: relative;
+}
+
+.message-chart-continer-header{
+ height: 5rem;
+ width: 100%;
+ box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 1px groove #AAA;
+ 
+}
+
+.message-chart-continer-header-profile{
+
+}
+
+.message-chart-continer-header-call-help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7rem;
+    color: #000;
+    /* border: 1px solid #000; */
+    font-size: 2rem;
+    margin: 0px 1rem;
+}
+
+.message-chart-continer-footer{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #aaa; */
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.message-chart-continer-footer-actione-continer{
+    margin: 1rem;
+    width: 100%;
+    height: 3.5rem;
+    border: 1px groove #aaa;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.message-chart-input{
+    border: none;
+    outline: none;
+    height: 3rem;
+    font-size: 1.1rem;
+}
+
+.message-chart-coversation-continer{
+    height: 75vh;
+    width: 100%;
+    background-color: #fff;
+    overflow: auto;
+}
+
+
+
+
+.message-chart-coversation-continer::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .message-chart-coversation-continer::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+  
+  .message-chart-coversation-continer::-webkit-scrollbar-thumb {
+    background-color: rgb(124, 124, 124);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(255, 255, 255);  /* creates padding around scroll thumb */
+  }
+  
+
+.message-chart-coversation-continer-inner{
+    height: auto;
+    width: 100%;
+    
+}
+
+.message-chart-coversation{
+    min-height: 2rem;
+    max-width: 40%;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: 2px 1rem;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+
+}
